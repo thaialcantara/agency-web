@@ -1,0 +1,126 @@
+:root {
+    --branco-principal: #E5E5E5;
+    --azul: #1090CB;
+    --preto: #000000;
+    --cinza: #5C5C5C;
+    --cinza-claro: #969696;
+    --fonte-principal: 'Poppins'
+}
+
+.cabecalho {
+    background-color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 700;
+    color: var(--azul);
+}
+
+.menu__item {
+    display: flex;
+    text-decoration: none;
+}
+
+.lista-menu__item {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.lista-menu__link{
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 400;
+}
+
+.lista-menu__link:hover {
+    color: var(--azul);
+}
+
+.lista-menu__link-contato {
+    background-color: blue;
+    border-radius: 5px;
+    padding: 1em;
+    color: #FFFFFF;
+}
+.fundo-azul {
+    background-color: rgba(16, 144, 203, 0.1);
+}
+
+.container {
+    font-family: var(--fonte-principal);
+    max-width: 1100px;
+    display: flex;
+    margin: 0px auto;
+    
+}
+
+.container-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.container__botao {
+    background-color: var(--azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: #FFFFFF;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 6em
+}
+
+.container-principal__titulo {
+    font-size: 600;
+    padding: 10px;
+}
+
+.container-principal__descricao {
+    font-size: 400;
+    color: var(--cinza);
+    padding: 10px;
+}
+
+.botao_secundario {
+    background-color: #FFFFFF;
+    color: var(--azul);
+    border: 2px solid var(--azul);
+}
+
+.imagem__principal {
+    float:right
+}
+
+.titulo__destaque {
+    padding: 16px;
+    margin: 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.lista-item {
+    display: flex;
+}
+
+.item__titulo {
+    font-size: 500;
+    color: var(--preto);
+}
+
+.item__descricao {
+    font-size: 400;
+    color: var(--cinza);
+}
+
+.item {
+    text-decoration: none;
+}
+
+
