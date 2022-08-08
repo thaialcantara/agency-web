@@ -93,10 +93,6 @@
     border: 2px solid var(--azul);
 }
 
-.imagem__principal {
-    float:right
-}
-
 .titulo__destaque {
     padding: 16px;
     margin: 15px;
@@ -112,15 +108,34 @@
 .item__titulo {
     font-size: 500;
     color: var(--preto);
+    margin: 0;
 }
 
 .item__descricao {
     font-size: 400;
     color: var(--cinza);
+    margin: 0;
 }
 
 .item {
-    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 5px;
 }
 
+.item-texto {
+    display: flex;
+    flex-direction: column;
+}
 
+.imagem-secundaria {
+    display:flex;
+    border: 15px solid ;
+    border-radius: 20px;
+    border-color: #ECFFDA;
+}
+
+.container-secundario {
+    background-color: var(--branco-principal);
+    
+}
