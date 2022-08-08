@@ -1,5 +1,5 @@
 :root {
-    --branco-principal: #E5E5E5;
+    --branco-principal: #FFFFFF;
     --azul: #1090CB;
     --preto: #000000;
     --cinza: #5C5C5C;
@@ -121,6 +121,7 @@
     display: flex;
     align-items: center;
     margin: 5px;
+    margin-right: 3em;
 }
 
 .item-texto {
@@ -139,3 +140,156 @@
     background-color: var(--branco-principal);
     
 }
+
+.titulo-texto {
+    font-family: var(--fonte-principal);
+    text-align: center;
+    margin: 40px;
+    padding: 24px;
+}
+
+.titulo {
+    font-size: 600;
+    color: #252525;
+}
+
+.texto {
+    font-size: 400;
+    color: #868686;
+}
+
+.fundo-secundario {
+    width: 100%;
+}
+
+
+.container-terciario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px; 
+}
+
+
+.img__happy {
+    border-radius: 20px;
+    background: #08D3BB;
+    padding: 7px;
+    margin-right: 20px;
+}
+
+.titulo-img-happy {
+    margin: 0;
+    font-size: 500;
+}
+
+.texto-img-happy {
+    margin: 0;
+    font-size: 400;
+    color: #868686;
+}
+
+.container-principal__titulo b {
+color: var(--azul);
+}
+
+.botao {
+    font-family: var(--fonte-principal);
+    display: flex;
+    text-align: center;
+}
+
+.botao__titulo {
+    font-size: 600;
+    color: #252525;
+}
+
+.botao__texto {
+    font-size: 400;
+    color: #545454;
+}
+
+.botao-direito {
+    background-color:#F4F4F4;
+    margin-right: 24px;
+    border-radius: 24px;
+}
+
+.botao-esquerdo {
+    background-color: var(--azul);
+    border-radius: 24px;
+}
+
+.titulo {
+    font-size: 500;
+}
+
+.email {
+    font-family: var(--fonte-principal);
+    background:#E8F4FA;
+    text-align: center;
+    padding: 30px;
+}
+
+.botao_email {
+    background-color: #000000;
+}
+
+.e-mail {
+    border-radius: 3px;
+    border: 1px solid transparent;
+    padding: 10px;
+}
+
+.rodapé {
+    font-family: var(--fonte-principal);
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista-rodapé {
+    display:inline-block;
+}
+
+.lista-rodapé__item {
+    display: flex;
+    align-items: center;
+    margin: 0.6em 0;
+}
+
+.lista-rodapé__link {
+    font-size: 400;
+    color: var(--cinza);
+    text-decoration: none;
+    margin-left: 0.6em;
+}
+
+.lista-rodapé__titulo {
+    font-size: 500;
+    text-decoration: none;
+}
+
+.lista-rodapé__titulo-logo {
+    font-size: 700;
+    color: var(--azul);
+}
+
+.imagem__principal {
+    width: 50vw;
+}
+
+.happy {
+    display: flex;
+    align-items: center;
+}
+
+.participantes {
+    margin-right: 30px;
+}
+
+/*
+ * {
+    border: 1px solid red;
+}
+*/
