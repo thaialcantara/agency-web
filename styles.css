@@ -13,6 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #E5E5E5;
 }
 
 .logo {
@@ -45,7 +46,7 @@
 }
 
 .lista-menu__link-contato {
-    background-color: blue;
+    background-color: var(--azul);
     border-radius: 5px;
     padding: 3px;
     color: #FFFFFF;
@@ -147,9 +148,31 @@
 
 .imagem-secundaria {
     display:flex;
+    
+}
+
+.item__imagem-1 {
+    border: 15px solid ;
+    border-radius: 20px;
+    border-color: #EFEAFF;
+}
+
+.item__imagem-2 {
     border: 15px solid ;
     border-radius: 20px;
     border-color: #ECFFDA;
+}
+
+.item__imagem-3 {
+    border: 15px solid ;
+    border-radius: 20px;
+    border-color: #DAE6FF;
+}
+
+.item__imagem-4 {
+    border: 15px solid ;
+    border-radius: 20px;
+    border-color: #FFE5DA;
 }
 
 .container-secundario {
@@ -224,6 +247,14 @@ color: var(--azul);
 }
 
 .botao__titulo {
+    font-size: 25px;
+    font-weight: 600;
+    color: #252525;
+    
+}
+
+.botao__titulo-mail {
+    margin: 1em 13em 2em;
     font-size: 25px;
     font-weight: 600;
     color: #252525;
