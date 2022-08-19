@@ -1,0 +1,180 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --azul: #1090CB;
+    --preto: #000000;
+    --cinza: #5C5C5C;
+    --cinza-claro: #969696;
+    --fonte-principal: 'Poppins'
+}
+
+.cabecalho {
+    background-color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.logo {
+    font-size: 29px;
+    font-weight: 700;
+    color: var(--azul);
+    margin-left: 1em;
+}
+
+.menu__item {
+    display: flex;
+    text-decoration: none;
+}
+
+.lista-menu__item {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.lista-menu__link{
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.lista-menu__link:hover {
+    color: var(--azul);
+}
+
+.lista-menu__link-contato {
+    background-color: var(--azul);
+    border-radius: 5px;
+    padding: 3px;
+    color: #FFFFFF;
+}
+
+.container {
+    font-family: var(--fonte-principal);
+    max-width: 1200px;
+    display: flex;
+    margin: 0px auto;
+    
+}
+
+.rodapé {
+    font-family: var(--fonte-principal);
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista-rodapé {
+    display:inline-block;
+    padding: 40px;
+}
+
+.lista-rodapé__item {
+    display: flex;
+    align-items: center;
+    margin: 0.6em 0;
+}
+
+.lista-rodapé__link {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza);
+    text-decoration: none;
+    
+}
+
+.lista-rodapé__titulo {
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    list-style: none;
+}
+
+.lista-rodapé__titulo-logo {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--azul);
+}
+
+.fim-rodape {
+    font-family: var(--fonte-principal);
+    font-size: 13px;
+    font-weight: 400;
+    color: #686868;
+    text-align: center;
+    border-top: 1px solid #969696;
+}
+
+.lista-rodape-img {
+    display: flex;
+    margin-top: auto;
+    padding: 40px;
+}
+
+.img-rodape {
+    list-style: none;
+    margin-right: 1em;
+    margin-right: 1em;
+    border: 5px solid #FFFFFF;
+    box-shadow: 0px 4px 14px 0px #00000026;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.email {
+    font-family: var(--fonte-principal);
+    background:#E8F4FA;
+    text-align: center;
+    padding: 6em;
+}
+
+.botao__titulo-mail {
+    margin: 1em 13em 2em;
+    font-size: 25px;
+    font-weight: 600;
+    color: #252525;
+}
+
+.e-mail {
+    border-radius: 3px;
+    border: 1px solid transparent;
+    padding: 10px;
+    width: 25em;
+}
+
+.container__botao {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: #FFFFFF;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 6em;
+}
+
+.botao_email {
+    background-color: #000000;
+    padding: 5px;
+}
+
