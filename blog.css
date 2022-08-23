@@ -57,7 +57,179 @@
     max-width: 1200px;
     display: flex;
     margin: 0px auto;
-    
+}
+
+.container__principal {
+    text-align: center;
+    width: 100%;
+}
+
+
+.titulo__principal {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 1em 9em;
+}
+
+.titulo__principal b {
+    color: var(--azul);
+    }
+
+.texto__titulo {
+    font-size: 20px;
+    font: 500;
+    color: #777777;
+    margin: 0 19em 2em 19em;
+}
+
+.banner__pesquisa {
+    background-color: #F1F1F1;
+    border: 1px solid var(--branco);
+    color: #727272;
+    border-radius: 10px;
+    padding: 1em;
+    width: 32%;
+    margin-bottom: 4em;
+}
+
+.banner__pesquisa::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--branco);
+    background: url("../agency-web/img/lupa.png") no-repeat;
+    background-position: 1em;
+}
+
+.lista-menu {
+    margin-bottom: 4em;
+}
+
+.lista-menu__link-botoes {
+    font-size: 14px;
+    background-color: #E7EFF3;
+    border-radius: 22px;
+    padding: 9px 17px;
+    color: var(--azul);
+}
+
+.lista-menu__link-botao {
+    font-size: 14px;
+    background-color: var(--azul);
+    border-radius: 22px;
+    padding: 9px 17px;
+    color: #FFFFFF;
+}
+
+.imagem__principal {
+    padding: 2em;
+}
+
+.descricao__secundaria {
+    padding: 2em;
+}
+
+.titulo__secundario {
+    font-size: 27px;
+    font-weight: 600;
+    color: var(--preto);
+}
+
+.texto__secundario {
+    font-size: 16px;
+    font-weight: 400;
+    color: #424242;
+    margin: 0 4em 1em 0;
+}
+
+.container__secundario {
+    margin-bottom: 5em;
+}
+
+.nome__colaborador {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+    margin: 0;
+}
+
+.data {
+    font-size: 14px;
+    font-weight: 400;
+    color: #7B7B7B;
+    margin: 0;
+}
+
+.read {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--azul);
+}
+
+.container__terciario {
+    display: flex;
+}
+
+.titulo__terciario {
+    font-size: 23px;
+    font-weight: 600;
+    color: var(--preto);
+    margin: 1em 2em 0 0;
+}
+
+.descricao__terciaria {
+    font-size: 16px;
+    font-weight: 400;
+    color: #424242;
+    margin: 1em 3em 2em 0;
+}
+
+.img-texto {
+    display: flex;
+    margin-bottom: 5em;
+}
+
+.texto {
+    margin-left: 1em;
+}
+
+.email {
+    font-family: var(--fonte-principal);
+    background:#E8F4FA;
+    text-align: center;
+    padding: 6em;
+}
+
+.botao__titulo-mail {
+    margin: 1em 13em 2em;
+    font-size: 25px;
+    font-weight: 600;
+    color: #252525;
+}
+
+.e-mail {
+    border-radius: 3px;
+    border: 1px solid transparent;
+    padding: 10px;
+    width: 25em;
+}
+
+.container__botao {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: #FFFFFF;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 6em;
+}
+
+.botao_email {
+    background-color: #000000;
+    padding: 5px;
 }
 
 .rodapé {
@@ -123,58 +295,3 @@
     border-radius: 30px;
     padding: 2px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.email {
-    font-family: var(--fonte-principal);
-    background:#E8F4FA;
-    text-align: center;
-    padding: 6em;
-}
-
-.botao__titulo-mail {
-    margin: 1em 13em 2em;
-    font-size: 25px;
-    font-weight: 600;
-    color: #252525;
-}
-
-.e-mail {
-    border-radius: 3px;
-    border: 1px solid transparent;
-    padding: 10px;
-    width: 25em;
-}
-
-.container__botao {
-    font-size: 16px;
-    font-weight: 400;
-    background-color: var(--azul);
-    border-radius: 5px;
-    padding: 1em;
-    color: #FFFFFF;
-    display: inline-block;
-    text-decoration: none;
-    margin-bottom: 6em;
-}
-
-.botao_email {
-    background-color: #000000;
-    padding: 5px;
-}
-
